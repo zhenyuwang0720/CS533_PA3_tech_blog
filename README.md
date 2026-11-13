@@ -5,7 +5,7 @@
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zhenyuwang0720/MA_Cross_Trading_Strategy_Analysis/blob/main/CS533_PA3_JimmyWang.ipynb)
 [![Jupyter Notebook](https://img.shields.io/badge/Jupyter-View%20Notebook-orange?logo=jupyter)](./CS533_PA3_JimmyWang.ipynb)
 
-> **Project summary:** Explore Disney (DIS) historical closing prices, calculate Fibonacci-period moving averages, identify Golden Cross and Death Cross signals, and evaluate a rule-based trading strategy. 
+> **Project summary:** Explore Disney (DIS) historical closing prices, calculate Fibonacci-period moving averages, identify Golden Cross and Death Cross signals, and evaluate a rule-based trading strategy.
 
 ## Table of Contents
 
@@ -151,14 +151,11 @@ The notebook generates price/MA charts for the one-year and ten-year windows, ov
 
 ## 6. Results
 
-> Fill in these fields using the output of the **latest committed notebook**. Numbers are intentionally not prefilled.
-
 ### 6.1 Price and moving-average visualizations
 
 **Figure 1 — One-year DIS closing price with MA21 and MA55**
 
-<!-- Export the actual plot from Colab to assets/images/dis_1yr_ma.png, then uncomment the next line. -->
-<!-- ![DIS one-year moving averages](assets/images/dis_1yr_ma.png) -->
+![DIS one-year moving averages](assets/images/dis_1yr_ma.png)
 
 **[Insert one-year chart and describe the trend or notable crossover dates.]**
 
