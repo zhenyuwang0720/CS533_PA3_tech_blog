@@ -203,6 +203,8 @@ For the future work, I will apply the strategy to different stocks, and try diff
 *For educational and research purposes only; not investment advice.*
 
 **References:**
-Yu, L., Zhang, D., & Zhang, H. (2010). 神奇的大均线：大均线原理及应用 [The Magic of Long-Term Moving Averages: Principles and Applications]. Tsinghua University Press. ISBN: 9787302227656. 
+
+1. Yu, L., Zhang, D., & Zhang, H. (2010). 神奇的大均线：大均线原理及应用 [The Magic of Long-Term Moving Averages: Principles and Applications]. Tsinghua University Press. ISBN: 9787302227656. 
 book.douban.com
-https://www.stockquote.io/stocks/DIS/history
+
+3. https://www.stockquote.io/stocks/DIS/history
