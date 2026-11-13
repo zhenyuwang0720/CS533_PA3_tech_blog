@@ -1,0 +1,20 @@
+title: "Technical Research Notes"
+description: "Reproducible experiments in Python, AI, and data science"
+url: ""
+baseurl: ""
+github_username: "YOUR_GITHUB_USERNAME"
+repository_name: "YOUR_GITHUB_USERNAME.github.io"
+markdown: kramdown
+permalink: /articles/:year/:month/:day/:title/
+exclude:
+  - README.md
+  - tools
+  - requirements.txt
+  - .github
+  - '*.zip'
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post

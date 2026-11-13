@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<article class="article">
+  <div class="eyebrow">{{ page.date | date: "%B %d, %Y" }} · {{ page.categories | join: " / " }}</div>
+  <h1>{{ page.title }}</h1>
+  {% if page.summary %}<p class="lead">{{ page.summary }}</p>{% endif %}
+  {% if page.notebook %}
+  <p class="actions"><a class="button" href="https://colab.research.google.com/github/{{ site.github_username }}/{{ site.repository_name }}/blob/main/{{ page.notebook }}">Open notebook in Colab ↗</a><a class="button outline" href="https://github.com/{{ site.github_username }}/{{ site.repository_name }}/blob/main/{{ page.notebook }}">View notebook source</a></p>
+  {% endif %}
+  <div class="prose">{{ content }}</div>
+</article>

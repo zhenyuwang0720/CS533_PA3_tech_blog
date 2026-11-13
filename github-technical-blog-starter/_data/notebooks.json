@@ -1,0 +1,7 @@
+[
+  {
+    "title": "Reproducible Python Data Analysis",
+    "description": "A short notebook showing Pandas rolling statistics on synthetic observations.",
+    "path": "notebooks/example_analysis.ipynb"
+  }
+]
