@@ -64,7 +64,7 @@ $$
 
 Here, `P` denotes the daily closing price, and the notebook computes moving averages for `n = 21, 34, 55, 89, 144, 233`, which is a portion of Fibonacci sequence.
 
-### 4.1 Rationale for Using Fibonacci-Period Moving Averages
+### 4.2 Rationale for Using Fibonacci-Period Moving Averages
 
 Traditional moving-average crossover strategies commonly use the 50-day and 200-day moving averages to identify long-term bullish and bearish trends. Although these indicators are widely recognized, their relatively long lookback periods may delay the identification of shorter-term trend reversals.
 
@@ -88,15 +88,11 @@ Rather than selecting arbitrary moving-average periods, the Fibonacci sequence p
 
 This study investigates whether Fibonacci-period moving averages can provide useful alternative trading signals compared with the conventional MA50/MA200 approach, particularly in terms of signal timing, trading frequency, and cumulative returns. The objective is not to assume that Fibonacci-based strategies are superior, but to evaluate their performance empirically using historical stock-price data.
 
-### 4.2 Theoretical Motivation: Fibonacci-Based Moving Average Resonance
-
-
-
-### 4.2 Cross-signal detection
+### 4.3 Cross-signal detection
 
 A **Golden Cross** is flagged when **MA21 ≥ MA55 today** and **MA21 < MA55 on the previous observation**. A **Death Cross** is flagged when **MA21 < MA55 today** and **MA21 ≥ MA55 on the previous observation**.
 
-### 4.3 Trading rules
+### 4.4 Trading rules
 
 1. **Buy** at the closing price of the day with a Golden Cross, provided no position is open.
 2. **Hold** until the next Death Cross.
