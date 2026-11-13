@@ -50,7 +50,7 @@ A **Golden Cross** occurs when the short-term MA crosses above the long-term MA;
 
 Usage: The notebook converts `Date` to a datetime type, sorts observations chronologically, and calculates moving averages from the `Close` column.
 
-**Dataset location:** [`data/DIS_1d_1962-01-02_2026-11-11.csv`](./data/DIS_1d_1962-01-02_2026-11-11.csv) *(verify that the CSV is actually uploaded at this path).* 
+**Dataset location:** [`data/DIS_1d_1962-01-02_2026-11-11.csv`](./data/DIS_1d_1962-01-02_2026-11-11.csv)
 
 ## 4. Methodology
 
