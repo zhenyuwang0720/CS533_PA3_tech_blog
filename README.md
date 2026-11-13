@@ -15,9 +15,7 @@
 4. [Methodology](#4-methodology)
 5. [Python Implementation](#5-python-implementation)
 6. [Results](#6-results)
-7. [Discussion and Limitations](#7-discussion-and-limitations)
-8. [Conclusion and Future Work](#8-conclusion-and-future-work)
-9. [Reproducibility](#9-reproducibility)
+7. [Conclusion](#7-conclusion)
 
 ## 1. Introduction
 
