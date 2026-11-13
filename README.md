@@ -90,7 +90,7 @@ This study investigates whether Fibonacci-period moving averages can provide use
 
 ### 4.3 Cross-signal detection
 
-For demonstration, we pick the short-period MA as MA21 (approximately a monthly average, considering weekend & holidays) and the long-period MA as MA55 (a 2.5-month average).
+For better illustration purpose, I pick the short-period MA as MA21 (approximately a monthly average, considering weekend & holidays) and the long-period MA as MA55 (a 2.5-month average).
 
 A **Golden Cross** is flagged when **MA21 ≥ MA55 today** and **MA21 < MA55 on the previous observation**. A **Death Cross** is flagged when **MA21 < MA55 today** and **MA21 ≥ MA55 on the previous observation**.
 
