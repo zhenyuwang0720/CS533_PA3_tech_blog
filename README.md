@@ -182,7 +182,7 @@ The notebook generates price/MA charts for the one-year and ten-year windows, ov
 | Closing-price change from first trade entry to last trade exit | **+4.11%** |
 | Strategy advantage (compounded trade return minus price change) | **+86.55%** |
 
-## 7. Conclusion and Future Work
+## 7. Conclusion
 
 **Conclusion:** The selected MA21/MA55 moving-average crossover analysis identified 49 recurring Golden Cross (Buy) and Death Cross (Sell) signals throughout the most recent 10-year period of Disney(DIS) stock prices. The crossovers reflected changes in the relationship between short-term and long-term price trends, with alternating signals occurring as market conditions changed. The constructed trading strategy recorded 24 completed trades, achieving an average return of +3.16% per trade and a compounded cumulative return of +90.66%. In comparison, the actual stock price only increases from the first completed trades' entry and the last completed trade's exit. The strategy successfully exceed the long-term stock holders' earning by 86.55 percentage points.
 
