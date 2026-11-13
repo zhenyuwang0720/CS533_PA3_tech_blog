@@ -165,7 +165,14 @@ The notebook generates price/MA charts for the one-year and ten-year windows, ov
 
 (24 completed trades during the 10-year time period.)
 
-### 6.2 Trading strategy evaluation
+### 6.2 Example trade records
+
+| Buy date | Buy price | Sell date | Sell price | Trade return |
+| --- | ---: | --- | ---: | ---: |
+| 2020-05-12 | $104.56 | 2020-07-23 | $118.12 | +12.97% |
+| 2025-12-30 | $114.79 | 2026-02-11 | $108.12 | -5.81% |
+
+### 6.3 Trading strategy evaluation
 
 | Metric | Result |
 | --- | --- |
@@ -176,13 +183,6 @@ The notebook generates price/MA charts for the one-year and ten-year windows, ov
 | Strategy advantage (compounded trade return minus price change) | **+86.55%** |
 
 **Analysis:** **[Explain whether the strategy outperformed the notebook's comparison and what patterns you observed. Note that this comparison is based on the first and last completed-trade prices, not necessarily the exact calendar endpoints.]**
-
-### 6.3 Example trade records
-
-| Buy date | Buy price | Sell date | Sell price | Trade return |
-| --- | ---: | --- | ---: | ---: |
-| [YYYY-MM-DD] | [$...] | [YYYY-MM-DD] | [$...] | [...%] |
-| [YYYY-MM-DD] | [$...] | [YYYY-MM-DD] | [$...] | [...%] |
 
 ## 7. Discussion and Limitations
 
