@@ -46,9 +46,9 @@ A **Golden Cross** occurs when the short-term MA crosses above the long-term MA;
 | Main columns used | `Date`, `Close` |
 | One-year view | Data from November 11, 2025 onward |
 | Ten-year view | Data from November 11, 2016 onward |
-| Source | **[Add the original data provider / retrieval details]** |
+| Source | **https://www.stockquote.io/stocks/DIS/history** |
 
-The notebook converts `Date` to a datetime type, sorts observations chronologically, and calculates moving averages from the `Close` column.
+Usage: The notebook converts `Date` to a datetime type, sorts observations chronologically, and calculates moving averages from the `Close` column.
 
 **Dataset location:** [`data/DIS_1d_1962-01-02_2026-11-11.csv`](./data/DIS_1d_1962-01-02_2026-11-11.csv) *(verify that the CSV is actually uploaded at this path).* 
 
