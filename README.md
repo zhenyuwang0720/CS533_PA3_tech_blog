@@ -5,7 +5,7 @@
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zhenyuwang0720/MA_Cross_Trading_Strategy_Analysis/blob/main/CS533_PA3_JimmyWang.ipynb)
 [![Jupyter Notebook](https://img.shields.io/badge/Jupyter-View%20Notebook-orange?logo=jupyter)](./CS533_PA3_JimmyWang.ipynb)
 
-> **Project summary:** Explore Disney (DIS) historical closing prices, calculate Fibonacci-period moving averages, identify Golden Cross and Death Cross signals, and evaluate a rule-based trading strategy. **Replace bracketed placeholders below with results from your executed notebook.**
+> **Project summary:** Explore Disney (DIS) historical closing prices, calculate Fibonacci-period moving averages, identify Golden Cross and Death Cross signals, and evaluate a rule-based trading strategy. 
 
 ## Table of Contents
 
@@ -23,17 +23,15 @@
 
 Moving averages (MA) smooth short-term price fluctuations and help reveal longer-term trends. This project investigates whether crossover signals based on Disney's (DIS) historical daily closing prices can define a systematic buy-and-sell strategy.
 
-A **Golden Cross** occurs when the short-term MA crosses above the long-term MA; for example, the 21-day MA crosses above the 55-day MA; a **Death Cross** occurs when it crosses below. 
+A **Golden Cross** occurs when the short-term MA crosses above the long-term MA; for example, the 21-day MA crosses above the 55-day MA; a **Death Cross** occurs when it crosses below. A Golden Cross is usually considered a signal of buying, on the other hand, a Death Cross usually appears as a signal to leave the market.
 
-
-
-**Research question:** How does a 21/55-day moving-average crossover strategy perform on the available DIS historical data, especially over the most recent ten-year analysis window?
+**Research question:** How does the moving-average crossover strategy perform on the available stock historical data, especially over the most recent ten-year analysis window?
 
 ## 2. Research Objectives
 
 - Calculate moving averages over the Fibonacci-related windows **21, 34, 55, 89, 144, and 233** trading observations.
-- Visualize the closing price alongside MA21 and MA55 over **one-year** and **ten-year** windows.
-- Detect Golden Cross and Death Cross events without manually labeling chart points.
+- Visualize the stock closing price alongside a pair of short and long moving averages.
+- Detect MA Golden Cross and Death Cross events.
 - Simulate completed trades initiated by Golden Cross and closed by the next Death Cross.
 - Compare the compounded return across completed strategy trades with the price change between the first strategy purchase and final strategy sale in the chosen window.
 
