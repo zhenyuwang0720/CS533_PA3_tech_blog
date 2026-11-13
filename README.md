@@ -182,17 +182,17 @@ The notebook generates price/MA charts for the one-year and ten-year windows, ov
 | Closing-price change from first trade entry to last trade exit | **+4.11%** |
 | Strategy advantage (compounded trade return minus price change) | **+86.55%** |
 
-**Analysis:** **[Explain whether the strategy outperformed the notebook's comparison and what patterns you observed. Note that this comparison is based on the first and last completed-trade prices, not necessarily the exact calendar endpoints.]**
-
 ## 7. Discussion and Limitations
 
-**Interpretation:** [Discuss the performance of MA21/MA55 signals, false signals during sideways price movement, or responsiveness during sustained trends—based on your plotted and calculated evidence.]
+**Interpretation:** The evaluation of the MA21/MA55 Golden Cross and Death Cross trading strategy over the selected ten-year period produced 24 completed trades, with an average return of +3.16% per trade and a compounded return of +90.66%. The evaluation of the MA21/MA55 Golden Cross and Death Cross trading strategy over the selected ten-year period produced 24 completed trades, with an average return of +3.16% per trade and a compounded return of +90.66%.
+
+In comparison, Disney's closing price increased by only +4.11% between the entry date of the first completed trade and the exit date of the last completed trade. The difference of 86.55 percentage points suggests that the moving-average crossover strategy substantially outperformed this simple price-change benchmark during the analyzed period.
 
 **Limitations to address:**
 
 - **Execution assumptions:** Buying/selling at the same closing price used to identify the crossover may not be realistically executable without an execution-delay rule.
 - **Trading frictions:** Transaction fees, slippage, and taxes are not modeled.
-- **Total return:** The code uses closing prices and does not explicitly incorporate dividend cash flows.
+- **Total return:** This project uses closing prices and does not explicitly incorporate dividend cash flows.
 - **Trade selection:** Only closed trades are scored; positions still open at the end are excluded.
 - **Baseline comparability:** The comparison uses first-trade entry and last-trade exit prices; the strategy may be out of the market between trades.
 - **Generalization:** A single security and historical period do not establish future performance.
