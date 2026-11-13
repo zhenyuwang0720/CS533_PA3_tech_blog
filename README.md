@@ -195,7 +195,7 @@ Overall, the MA21/MA55 crossover strategy generated a higher cumulative return t
 - **Baseline comparability:** The comparison uses first-trade entry and last-trade exit prices; the strategy may be out of the market between trades.
 - **Generalization:** A single security and historical period do not establish future performance.
 
-In the future work, I would continue to take the above limitations into account, apply the strategy to different stocks, and try different combinations of short-term and long-term MA and compare the results.
+For the future work, I would continue to take the above limitations into account, apply the strategy to different stocks, and try different combinations of short-term and long-term MA and compare the results.
 
 ---
 
