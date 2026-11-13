@@ -25,7 +25,7 @@ Moving averages (MA) smooth short-term price fluctuations and help reveal longer
 
 A **Golden Cross** occurs when the short-term MA crosses above the long-term MA; for example, the 21-day MA crosses above the 55-day MA; a **Death Cross** occurs when it crosses below. A Golden Cross is usually considered a signal of buying, on the other hand, a Death Cross usually appears as a signal to leave the market.
 
-**Research question:** How does the moving-average crossover strategy perform on the available stock historical data, especially over the most recent ten-year analysis window?
+It will be nice if we can construct a trading strategy with these basic statistics and see how does the perform on the available stock historical data, especially over the most recent ten-year analysis window.
 
 ## 2. Research Objectives
 
