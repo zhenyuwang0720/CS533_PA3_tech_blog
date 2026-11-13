@@ -21,9 +21,11 @@
 
 ## 1. Introduction
 
-Moving averages smooth short-term price fluctuations and help reveal longer-term trends. This project investigates whether crossover signals based on Disney's (DIS) historical daily closing prices can define a systematic buy-and-sell strategy.
+Moving averages (MA) smooth short-term price fluctuations and help reveal longer-term trends. This project investigates whether crossover signals based on Disney's (DIS) historical daily closing prices can define a systematic buy-and-sell strategy.
 
-A **Golden Cross** occurs when the 21-day moving average crosses above the 55-day moving average; a **Death Cross** occurs when it crosses below. These definitions are specific to this project (not the commonly cited 50/200-day pair).
+A **Golden Cross** occurs when the short-term MA crosses above the long-term MA; for example, the 21-day MA crosses above the 55-day MA; a **Death Cross** occurs when it crosses below. 
+
+
 
 **Research question:** How does a 21/55-day moving-average crossover strategy perform on the available DIS historical data, especially over the most recent ten-year analysis window?
 
@@ -224,3 +226,7 @@ MA_Cross_Trading_Strategy_Analysis/
 **Project:** Moving Average Crossover Trading Strategy Analysis  
 
 *For educational and research purposes only; not investment advice.*
+
+**References:**
+Yu, L., Zhang, D., & Zhang, H. (2010). 神奇的大均线：大均线原理及应用 [The Magic of Long-Term Moving Averages: Principles and Applications]. Tsinghua University Press. ISBN: 9787302227656. 
+book.douban.com
