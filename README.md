@@ -169,11 +169,11 @@ The notebook generates price/MA charts for the one-year and ten-year windows, ov
 
 | Metric | Result |
 | --- | --- |
-| Completed Golden Cross → Death Cross trades in ten-year selection | **[Insert count]** |
-| Average return per completed trade | **[Insert %]** |
-| Compounded return across completed trades | **[Insert %]** |
-| Closing-price change from first trade entry to last trade exit | **[Insert %]** |
-| Strategy advantage (compounded trade return minus price change) | **[Insert percentage points]** |
+| Completed Golden Cross → Death Cross trades in ten-year selection | **24** |
+| Average return per completed trade | **+3.16%** |
+| Compounded return across completed trades | **+90.66%** |
+| Closing-price change from first trade entry to last trade exit | **+4.11%** |
+| Strategy advantage (compounded trade return minus price change) | **+86.55%** |
 
 **Analysis:** **[Explain whether the strategy outperformed the notebook's comparison and what patterns you observed. Note that this comparison is based on the first and last completed-trade prices, not necessarily the exact calendar endpoints.]**
 
