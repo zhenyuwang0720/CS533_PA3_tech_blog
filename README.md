@@ -96,12 +96,11 @@ A **Golden Cross** is flagged when **MA21 ≥ MA55 today** and **MA21 < MA55 on 
 
 ### 4.4 Trading rules
 
-1. **Buy** at the closing price of the day with a Golden Cross, provided no position is open.
+1. **Buy** at the closing price of the day with a Golden Cross.
 2. **Hold** until the next Death Cross.
 3. **Sell** at the closing price on that Death Cross day.
-4. Record the trade's percentage return; evaluate completed buy–sell pairs only.
 
-The return on a completed trade is:
+For each completed buy-sell pairs, record the trade's percentage return. The return on a completed trade is:
 
 $$
 R_i=\frac{P_{\mathrm{sell},i}}{P_{\mathrm{buy},i}}-1
