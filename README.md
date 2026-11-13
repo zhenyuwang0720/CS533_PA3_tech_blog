@@ -62,7 +62,35 @@ $$
 \mathrm{SMA}_n(t)=\frac{1}{n}\sum_{i=0}^{n-1}P_{t-i}
 $$
 
-Here, `P` denotes the daily closing price, and the notebook computes moving averages for `n = 21, 34, 55, 89, 144, 233`.
+Here, `P` denotes the daily closing price, and the notebook computes moving averages for `n = 21, 34, 55, 89, 144, 233`, which is a portion of Fibonacci sequence.
+
+### 4.1 Rationale for Using Fibonacci-Period Moving Averages
+
+Traditional moving-average crossover strategies commonly use the 50-day and 200-day moving averages to identify long-term bullish and bearish trends. Although these indicators are widely recognized, their relatively long lookback periods may delay the identification of shorter-term trend reversals.
+
+For this project, I explore an alternative approach using moving-average periods derived from the Fibonacci sequence: **21, 34, 55, 89, 144, and 233 trading days.**
+
+The selection of Fibonacci periods is motivated by three primary considerations.
+
+**a. Multi-Timeframe Trend Analysis**
+
+Fibonacci periods provide a structured progression of observation windows. Shorter moving averages, such as MA21 and MA34, emphasize recent price movements, while longer periods, such as MA144 and MA233, help identify broader market trends. This allows the analysis to examine how short-term price behavior interacts with intermediate- and long-term trends.
+
+**b. Signal Responsiveness and Detection Lag**
+
+The conventional MA50/MA200 crossover is primarily designed to identify significant long-term trend changes. However, moving averages are lagging indicators, meaning they respond to price movements after those movements have occurred. By examining shorter Fibonacci-period combinations, such as MA21/MA55, this study investigates whether trend reversals can be identified earlier than with MA50/MA200. Earlier signals may improve responsiveness but may also increase false signals during sideways or volatile markets.
+
+**c. Systematic Parameter Selection**
+
+Rather than selecting arbitrary moving-average periods, the Fibonacci sequence provides a predefined and mathematically structured set of parameters. The sequence is associated with the golden ratio, approximately 1.618, although this mathematical relationship does not establish that Fibonacci-based indicators are inherently more accurate in financial markets. The purpose of selecting these periods is to explore how their different lookback windows affect crossover behavior and trading-strategy performance.
+
+**Research Hypothesis**
+
+This study investigates whether Fibonacci-period moving averages can provide useful alternative trading signals compared with the conventional MA50/MA200 approach, particularly in terms of signal timing, trading frequency, and cumulative returns. The objective is not to assume that Fibonacci-based strategies are superior, but to evaluate their performance empirically using historical stock-price data.
+
+### 4.2 Theoretical Motivation: Fibonacci-Based Moving Average Resonance
+
+
 
 ### 4.2 Cross-signal detection
 
