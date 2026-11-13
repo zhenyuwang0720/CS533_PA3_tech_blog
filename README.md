@@ -157,19 +157,13 @@ The notebook generates price/MA charts for the one-year and ten-year windows, ov
 
 ![DIS one-year moving averages](assets/images/dis_1yr_ma.png)
 
-(2 completed trades during the 1-year time period, from 2025-12-30 to 2026-02-11, and from 2026-4-30 to 2026-4-15)
+(2 completed trades during the 1-year time period, from 2025-12-30 to 2026-02-11, and from 2026-4-30 to 2026-4-15.)
 
 **Figure 2 — Ten-year DIS closing price with MA21 and MA55**
 
 ![DIS ten-year moving averages](assets/images/dis_10yr_ma.png)
 
-(24 completed trades during the 10-year time period)
-
-**Figure 3 — Golden Cross and Death Cross markers**
-
-<!-- ![DIS crossover signals](assets/images/dis_cross_signals.png) -->
-
-**[Insert crossover chart(s) exported from your notebook.]**
+(24 completed trades during the 10-year time period.)
 
 ### 6.2 Trading strategy evaluation
 
