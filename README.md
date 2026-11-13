@@ -182,13 +182,11 @@ The notebook generates price/MA charts for the one-year and ten-year windows, ov
 | Closing-price change from first trade entry to last trade exit | **+4.11%** |
 | Strategy advantage (compounded trade return minus price change) | **+86.55%** |
 
-## 7. Discussion and Limitations
+## 7. Conclusion and Future Work
 
-**Interpretation:** The evaluation of the MA21/MA55 Golden Cross and Death Cross trading strategy over the selected ten-year period produced 24 completed trades, with an average return of +3.16% per trade and a compounded return of +90.66%. The evaluation of the MA21/MA55 Golden Cross and Death Cross trading strategy over the selected ten-year period produced 24 completed trades, with an average return of +3.16% per trade and a compounded return of +90.66%.
+**Conclusion:** The selected MA21/MA55 moving-average crossover analysis identified 49 recurring Golden Cross (Buy) and Death Cross (Sell) signals throughout the most recent 10-year period of Disney(DIS) stock prices. The crossovers reflected changes in the relationship between short-term and long-term price trends, with alternating signals occurring as market conditions changed. The constructed trading strategy recorded 24 completed trades, achieving an average return of +3.16% per trade and a compounded cumulative return of +90.66%. In comparison, the actual stock price only increases from the first completed trades' entry and the last completed trade's exit. The strategy successfully exceed the long-term stock holders' earning by 86.55 percentage points.
 
-In comparison, Disney's closing price increased by only +4.11% between the entry date of the first completed trade and the exit date of the last completed trade. The difference of 86.55 percentage points suggests that the moving-average crossover strategy substantially outperformed this simple price-change benchmark during the analyzed period.
-
-**Limitations to address:**
+Overall, the MA21/MA55 crossover strategy generated a higher cumulative return than the price-change benchmark. However a few assumptions and limitations needs to be considered:
 
 - **Execution assumptions:** Buying/selling at the same closing price used to identify the crossover may not be realistically executable without an execution-delay rule.
 - **Trading frictions:** Transaction fees, slippage, and taxes are not modeled.
@@ -197,46 +195,11 @@ In comparison, Disney's closing price increased by only +4.11% between the entry
 - **Baseline comparability:** The comparison uses first-trade entry and last-trade exit prices; the strategy may be out of the market between trades.
 - **Generalization:** A single security and historical period do not establish future performance.
 
-## 8. Conclusion and Future Work
-
-**Conclusion:** [Summarize the observed crossover behavior, the number of completed trades, and whether the measured cumulative return exceeded or fell behind the notebook's price-change comparison. Avoid claims of predictive accuracy not established by your analysis.]
-
-**Potential future improvements:**
-
-- Test other moving-average pairs (for example, MA34/MA89).
-- Incorporate transaction costs and next-day execution.
-- Compare with an explicitly defined buy-and-hold total-return benchmark.
-- Report risk statistics such as maximum drawdown and volatility.
-- Test the approach on other stocks or on out-of-sample time periods.
-
-## 9. Reproducibility
-
-**Requirements:** Python, Pandas, NumPy, Matplotlib, and access to the CSV dataset.
-
-1. Open [`CS533_PA3_JimmyWang.ipynb`](./CS533_PA3_JimmyWang.ipynb) in GitHub, or use the **Open in Colab** badge at the top of this page.
-2. Confirm the dataset is available in `data/` on GitHub and that the notebook's CSV-loading path points to it, or upload the CSV into the Colab session at the path expected by your notebook.
-3. Run the notebook from top to bottom.
-4. Check that the crossover plots, trade table, and summary metrics are generated.
-
-**Repository layout (recommended):**
-
-```text
-MA_Cross_Trading_Strategy_Analysis/
-├── README.md
-├── CS533_PA3_JimmyWang.ipynb
-├── data/
-│   └── DIS_1d_1962-01-02_2026-11-11.csv
-└── assets/
-    └── images/
-        ├── dis_1yr_ma.png
-        ├── dis_10yr_ma.png
-        └── dis_cross_signals.png
-```
+In the future work, I would continue to take the above limitations into account, apply the strategy to different stocks, and try different combinations of short-term and long-term MA and compare the results.
 
 ---
 
-**Author:** Jimmy Wang  
-**Course:** CS533 — Programming Assignment 3  
+**Author:** Jimmy Wang   
 **Project:** Moving Average Crossover Trading Strategy Analysis  
 
 *For educational and research purposes only; not investment advice.*
