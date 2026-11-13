@@ -157,7 +157,7 @@ The notebook generates price/MA charts for the one-year and ten-year windows, ov
 
 ![DIS one-year moving averages](assets/images/dis_1yr_ma.png)
 
-**[Insert one-year chart and describe the trend or notable crossover dates.]**
+(We noticed 2 completed trades during the 1 year time period, from 2025-12-30 to 2026-02-11, and from 2026-4-30 to 2026-4-15)
 
 **Figure 2 — Ten-year DIS closing price with MA21 and MA55**
 
